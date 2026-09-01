@@ -1,3 +1,9 @@
+# v0.8.7
+
+- Reissued the latest `main` implementation as a new release so the package includes Anthropic workflow controls.
+- Added configurable Anthropic `-MaxIterations` support for successive tool-calling rounds.
+- Exposed Anthropic effort, speed, and effective response metadata through `Invoke-ChatCompletion -Raw`.
+
 # v0.8.6
 
 - Added `-MaxIterations` support to the Anthropic provider for limiting successive tool-calling rounds.
